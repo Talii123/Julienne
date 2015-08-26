@@ -20,7 +20,7 @@ function handleResponse(ingredients) {
 function receiveIngredients(ingredients) {
   ingredients = JSON.parse(ingredients);
   if (ingredients.length) {
-    document.getElementById('Body').value = document.getElementById('main').innerText = '\n' + ingredients.join('\n');    
+    document.getElementById('Body').value = document.getElementById('main').innerText = ingredients.join('\n');    
     document.getElementById('twilio').style.display = 'block';
   }
   else {
