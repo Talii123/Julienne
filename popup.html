@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Julienne</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  <div id="container">
+    <h1>Hi, I'm Julienne!</h1>
+    <div id="main">
+    	Hang on while I get those ingredients for you...
+   	</div>
+    <div class="error"></div>
+   	<div id="twilio">
+      <div class="request">
+        <h2>Enter your number - I'll send you a shopping list!</h2>
+        <form id="textItToMe" action="https://twiliorelayserver.appspot.com/" method="POST">
+    			<input id="To" name="To" type="hidden">
+    			<input id="Body" name="Body" type="hidden">
+
+    			<label>+</label>
+    			<input value="1" id="countryCode" size="3" maxlength="3" required>
+    			(<input value="740" id="areaCode" size="3" maxlength="3" required>)
+    			<input value="318" id="number3" size="3" maxlength="3" required type="tel">-
+    			<input value="1898" id="number4" size="4" maxlength="4" required type="tel">
+          <br>
+          <br>
+  	   	</form>
+  	   	<button id="callTwilioBtn" class="turquoise">Text me!</button>
+      </div>
+      <div class="response">
+        <h2>Success!</h2>
+        <p>Check your phone for my text with all the ingredients you need!</p>
+      </div>
+	</div>	   	
+  </div>
+  </body>
+</html>

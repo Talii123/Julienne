@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Souschef Plugin",
+  "description": "This extension will grab ingredients for your recipe",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon" : "Julienne_knife.png"
+   , "default_popup": "popup.html"
+  },
+  "permissions": [
+      "activeTab"
+      , "https://twiliorelayserver.appspot.com/"
+      , "http://*/*"
+      , "https://*/*"
+   ]
+
+}
