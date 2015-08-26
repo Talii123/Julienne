@@ -1,21 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Reenie+Beanie);
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 @import url(http://fonts.googleapis.com/css?family=Over+the+Rainbow);
+
 body {
 	font-size: 18px;
 	font-family: 'Reenie Beanie', cursive;
 	background: url("http://www.ginjaturtles.com/files/2114/4058/2215/Citrus-Yellow.jpg") no-repeat;
 }
-h1 {font-family: 'Reenie Beanie', cursive;
+
+h1 {
+  font-family: 'Reenie Beanie', cursive;
 	font-size: 34px;
 	text-align: center;
 }
-h2 {font-family: 'Reenie Beanie', cursive;
+
+h2 {
+  font-family: 'Reenie Beanie', cursive;
 	font-size: 20px;
-	text-align: center;}
-#container{background-color: rgba(255,255,255,.6)
-	
+	text-align: center;
 }
+
+#container{
+  background-color: rgba(255,255,255,.6);
+}
+
 #main {
 	width: 300px;
 }
@@ -36,7 +44,8 @@ h2 {font-family: 'Reenie Beanie', cursive;
 }
 
 
-#callTwilioBtn  {background: #39f1f7;
+#callTwilioBtn  {
+  background: #39f1f7;
   border-radius: 0px;
   color: #000000;
   font-size: 22px;
@@ -45,7 +54,6 @@ h2 {font-family: 'Reenie Beanie', cursive;
   border: none;
   text-decoration: none;
   transition: .8s all;
-
 }
  
 
@@ -55,5 +63,7 @@ h2 {font-family: 'Reenie Beanie', cursive;
   color: #ffffff;
 }
 
-#response { font-size: 18px;
+#response {
+  font-size: 18px;
   font-family: 'Reenie Beanie', cursive;
+}
